@@ -5,30 +5,30 @@
   font-family: lato, sans-serif;
 }
 
-.page__container {
+.page__info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.page__container-img {
+.page__info-img {
   width: 100%;
 }
 
-.page__container-more-info {
+.page__more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .page__container {
+  .page__info {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.page__main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -58,15 +58,15 @@
 }
 
 input,
-.add,
-.edit,
-.delete {
+.btn-add,
+.btn-edit,
+.btn-delete {
   outline: none;
 }
 
-.add,
-.edit,
-.delete {
+.btn-add,
+.btn-edit,
+.btn-delete {
   background: none;
   border: 0px;
   color: #888;
@@ -76,9 +76,9 @@ input,
   cursor: pointer;
 }
 
-.add,
-.edit,
-.delete:hover {
+.btn-add,
+.btn-edit,
+.btn-delete:hover {
   color: #3a3a3a;
 }
 
@@ -150,13 +150,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-.btn__remove-icon {
+.btn__delete-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn__remove-icon:hover {
+.btn__delete-icon:hover {
   transform: rotateZ(0);
 }
 

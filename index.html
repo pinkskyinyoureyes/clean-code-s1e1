@@ -7,32 +7,32 @@
   <link rel="stylesheet" href="style.css" media="screen">
 </head>
 <body class="page">
-  <div class="page__container">
-    <img class="page__container-img" src="./eisenhower-matrix.jpg">
-    <a class="page__container-more-info"
+  <div class="page__info">
+    <img class="page__info-img" src="./eisenhower-matrix.jpg">
+    <a class="page__more-info"
        href="https://goal-life.com/page/method/matrix-eisenhower">
        Want more details?
     </a>
   </div>
-  <div class="centered-main-page-element">
-    <p id="top-section-for-adding-element-to-list">
+  <div class="page__main">
+    <h3 class="input-name">
       <label class="new-task" for="new-task">Add Item</label>
-      <div class="task-row-wrapper">
-        <input id="new-task"
-               class="task"
-               type="text">
-          <button class="add">Add</button>
-      </div>
-    </p>
+    </h3>
+    <div class="task-row-wrapper">
+      <input id="new-task"
+             class="task"
+             type="text">
+      <button class="btn-add">Add</button>
+    </div>
     <h3 class="list-name">Todo</h3>
     <ul id="incomplete-tasks">
       <li class="list__incomplete">
         <input class="checkbox" type="checkbox">
           <label class="task">Pay Bills</label>
         <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
-            <img class="btn__remove-icon" src="./remove.svg">
+          <button class="btn-edit">Edit</button>
+          <button class="btn-delete">
+            <img class="btn__delete-icon" src="./icon-delete.svg">
           </button>
       </li>
       <li class="list__edit-mode">
@@ -41,9 +41,9 @@
         <input type="text"
                value="Go Shopping"
                class="task">
-          <button class="edit">Save</button>
-          <button class="delete">
-            <img class="btn__remove-icon" src="./remove.svg">
+          <button class="btn-edit">Save</button>
+          <button class="btn-delete">
+            <img class="btn__delete-icon" src="./icon-delete.svg">
           </button>
       </li>
     </ul>
@@ -53,13 +53,13 @@
         <input class="checkbox" type="checkbox" checked>
           <label class="task">See the Doctor</label>
         <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
-            <img class="btn__remove-icon" src="./remove.svg">
+          <button class="btn-edit">Edit</button>
+          <button class="btn-delete">
+            <img class="btn__delete-icon" src="./icon-delete.svg">
           </button>
       </li>
     </ul>
   </div>
-  <script src="app.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
